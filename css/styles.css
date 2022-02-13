@@ -355,58 +355,40 @@ figcaption {
     "section_7 section_7 section_7 section_7 section_7 section_7"
     "section_8 section_8 section_8 section_8 section_8 section_8"
     "footer footer footer footer footer footer";
-  grid-template-rows: auto auto auto 425px auto 600px auto auto auto auto;
+  grid-template-rows: auto auto auto 26.563rem auto 37.5rem auto auto auto auto;
 }
-
-/* .about_us_page {
-  display: grid;
-  height: 100vh;
-  gap: 10px;
-  grid-template-areas:
-    "section_1_left_side section_1_right_side section_1_right_side"
-    "section_1_bottom section_1_bottom section_1_bottom"
-    "section_2_left_side section_2_left_side section_2_right_side"
-    "section_3_left_side section_3_middle section_3_right_side"
-    "section_4_left_side section_4_right_side section_4_right_side"
-    "section_5_left_side section_5_middle section_5_right_side"
-    "section_6 section_6 section_6"
-    "section_7 section_7 section_7"
-    "section_8 section_8 section_8"
-    "footer footer footer";
-  grid-template-rows: repeat(10, 1fr);
-} */
 
 @media (max-width: 1020px) {
   .about_us_page {
     grid-template-areas:
-      "section_1_left_side section_1_right_side section_1_right_side"
-      "section_1_bottom section_1_bottom section_1_bottom"
-      "section_2_left_side section_2_left_side section_2_right_side side section_2_right_side"
-      "section_3_left_side section_3_middle section_3_right_side"
-      "section_4_left_side section_4_right_side section_4_right_side"
-      "section_5_left_side section_5_middle section_5_right_side"
-      "section_6 section_6 section_6"
-      "section_7 section_7 section_7"
-      "section_8 section_8 section_8"
-      "footer footer footer";
-    grid-template-rows: repeat(10, 1fr);
+      "section_1 section_1 section_1 section_1 section_1 section_1"
+      "section_1_bottom section_1_bottom section_1_bottom section_1_bottom section_1_bottom section_1_bottom"
+      "section_2_left_side section_2_left_side section_2_left_side section_2_right_side section_2_right_side section_2_right_side"
+      "section_3_left_side section_3_left_side section_3_middle section_3_middle section_3_right_side section_3_right_side"
+      "section_4_left_side section_4_left_side section_4_right_side section_4_right_side section_4_right_side section_4_right_side"
+      "section_5_left_side section_5_left_side section_5_middle section_5_middle section_5_right_side section_5_right_side"
+      "section_6 section_6 section_6 section_6 section_6 section_6"
+      "section_7 section_7 section_7 section_7 section_7 section_7"
+      "section_8 section_8 section_8 section_8 section_8 section_8"
+      "footer footer footer footer footer footer";
+    grid-template-rows: auto auto auto 26.563rem auto 37.5rem auto auto auto auto;
   }
 }
 
 @media (max-width: 720px) {
   .about_us_page {
     grid-template-areas:
-      "section_1_left_side section_1_right_side section_1_right_side"
-      "section_1_bottom section_1_bottom section_1_bottom"
-      "section_2_left_side section_2_left_side side section_2_right_side"
-      "section_3_left_side section_3_middle section_3_right_side"
-      "section_4_left_side section_4_right_side section_4_right_side"
-      "section_5_left_side section_5_middle section_5_right_side"
-      "section_6 section_6 section_6"
-      "section_7 section_7 section_7"
-      "section_8 section_8 section_8"
-      "footer footer footer";
-    grid-template-rows: repeat(10, 1fr);
+      "section_1 section_1 section_1 section_1 section_1 section_1"
+      "section_1_bottom section_1_bottom section_1_bottom section_1_bottom section_1_bottom section_1_bottom"
+      "section_2_left_side section_2_left_side section_2_left_side section_2_right_side section_2_right_side section_2_right_side"
+      "section_3_left_side section_3_left_side section_3_middle section_3_middle section_3_right_side section_3_right_side"
+      "section_4_left_side section_4_left_side section_4_right_side section_4_right_side section_4_right_side section_4_right_side"
+      "section_5_left_side section_5_left_side section_5_middle section_5_middle section_5_right_side section_5_right_side"
+      "section_6 section_6 section_6 section_6 section_6 section_6"
+      "section_7 section_7 section_7 section_7 section_7 section_7"
+      "section_8 section_8 section_8 section_8 section_8 section_8"
+      "footer footer footer footer footer footer";
+    grid-template-rows: auto auto auto 26.563rem auto 37.5rem auto auto auto auto;
   }
 }
 
