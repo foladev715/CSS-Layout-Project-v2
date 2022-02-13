@@ -1,0 +1,544 @@
+/**************************************Customized CSS Boilerplate**********************************/
+* {
+  box-sizing: border-box;
+  word-wrap: break-word;
+}
+
+:root {
+  --primary-1: #fff;
+}
+
+body {
+  margin: 20px 130px;
+  background-color: #fff;
+  overflow-x: hidden;
+}
+/* 
+img {
+  max-width: 100%;
+} */
+
+/********************************************Tag Selectors*****************************************/
+h1 {
+  font-size: 2.125rem;
+  color: #00b39f;
+  font-weight: 300;
+  letter-spacing: -0.3px;
+  font-family: Work Sans, Arial, sans-serif;
+}
+
+h2 {
+  font-size: 26px;
+  color: #fff;
+  font-weight: bold;
+  line-height: 34px;
+  font-family: "Work Sans", Arial, sans-serif;
+  margin: 6px 0;
+}
+
+h3 {
+  font-size: 34px;
+  color: #00b39b;
+  font-weight: 300;
+  line-height: 44px;
+  font-family: Work Sans, Arial, sans-serif;
+}
+
+h4 {
+  font-size: 24px;
+  color: #00b39b;
+  font-weight: 300;
+  line-height: 31px;
+  font-family: Work Sans, Arial, sans-serif;
+  margin: 0;
+}
+
+h5 {
+  font-size: 30px;
+  color: #00b39b;
+  font-weight: 300;
+  line-height: 39px;
+  font-family: Work Sans, Arial, sans-serif;
+  margin-top: 90px;
+  margin-bottom: 15px;
+}
+
+h6 {
+  font-size: 30px;
+  color: #333333;
+  font-weight: 300;
+  line-height: 39px;
+  font-family: Work Sans, Arial, sans-serif;
+  margin-bottom: 20px;
+}
+
+/* p {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+} */
+
+footer {
+  border-top: 1px solid #eef2f2;
+  text-align: center;
+  padding: 1em 0;
+  grid-area: footer;
+  font-weight: 400;
+  font-family: Roboto, Arial, sans-serif;
+  color: #ababab;
+  font-size: 12px;
+}
+
+footer a {
+  color: #3d83df;
+}
+
+hr {
+  width: 100%;
+  color: black;
+  border-style: solid;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*******************************************Class Selectors****************************************/
+
+.docplanner-logo {
+  width: 100%;
+  height: 30px;
+}
+
+.docplanner-brand-image {
+  margin-top: 63px;
+  margin-bottom: 10px;
+  height: 38px;
+}
+
+.section_1 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  align-content: space-between;
+  width: 100%;
+  justify-content: space-between;
+  grid-template-areas: section_1;
+  background-color: #fff;
+  z-index: 3;
+}
+.section_1 a {
+  margin: 0 10px;
+  color: #ababab;
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.section_1 a:hover {
+  color: #00b3a8;
+}
+
+.section_3 p {
+  font-family: "Work Sans", Arial, sans-serif;
+  font-weight: 300;
+  line-height: 29px;
+  color: #fff;
+  font-size: 24px;
+  margin-top: 0;
+}
+
+.section_3 {
+  margin: 40px 0;
+  border-right: 20px;
+}
+
+.section_3 a {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 400;
+  line-height: 25px;
+  font-size: 19px;
+  color: #fff;
+  display: block;
+  text-decoration: underline;
+}
+
+.section_3_image {
+  padding-top: 30px;
+}
+
+.section_4 p {
+  font-family: "Work Sans", Arial, sans-serif;
+  font-size: 26px;
+  font-weight: 300;
+  line-height: 34px;
+  color: #00b39b;
+}
+
+.section_5 {
+  background: #d7f5f6;
+  position: relative;
+}
+
+.section_5 .background_image {
+  width: 140%;
+  margin: 40px -8rem;
+  height: 340px;
+}
+.section_5 .stats_image {
+  width: 20%;
+}
+
+.section_5_box {
+  width: 90%;
+  height: 250px;
+  margin: 20px 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.section_5_box p {
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 13px;
+  line-height: 17px;
+  color: #747474;
+}
+
+.section_6 {
+  grid-area: section_6;
+  display: flex;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.section_6 p {
+  font-family: Roboto, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #747474;
+  width: 50%;
+}
+
+.section_7 img {
+  width: 309px;
+  height: 278px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  display: block;
+}
+
+.section_7 {
+  grid-area: section_7;
+}
+
+.section_7 figure {
+  display: inline-block;
+  margin: 16px 10px;
+  border: 1px solid rgba(0, 0, 0, 0.03);
+  border-radius: 10px;
+}
+
+.section_7 a:hover {
+  background-color: #fff;
+  box-shadow: 0 30px 40px rgba(0, 0, 0, 0.2);
+}
+
+.section_7 .btn {
+  background-color: #3d83df;
+  color: #fff;
+  border-style: hidden;
+  border-radius: 5px;
+  height: 30px;
+  font-family: Roboto, Arial, sans-serif;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 10px;
+  padding: 0 13px;
+}
+
+figcaption {
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 18px;
+  color: #747474;
+  line-height: 30px;
+  font-weight: 400;
+  background-color: #fff;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.section_8 {
+  text-align: center;
+  grid-area: section_8;
+}
+
+.section_8 .btn {
+  background-color: #3d83df;
+  color: #fff;
+  border-style: hidden;
+  border-radius: 5px;
+  height: 30px;
+  font-family: Roboto, Arial, sans-serif;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 12px;
+  padding: 0 20px;
+  margin-bottom: 60px;
+  height: 40px;
+}
+
+.section_8 .btn:hover {
+  background-color: #1662c6;
+  cursor: pointer;
+}
+.section_8 h1 {
+  color: #000;
+  text-align: center;
+}
+
+.fa fa-angle-down {
+  color: #fff;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: #627282;
+  text-decoration: none;
+  display: block;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  line-height: 18px;
+}
+
+.dropdown-content a:hover {
+  background-color: #3d83df;
+  color: #fff;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.about_us_page {
+  display: grid;
+  height: 100vh;
+  gap: 0;
+  grid-template-areas:
+    "section_1 section_1 section_1 section_1 section_1 section_1"
+    "section_1_bottom section_1_bottom section_1_bottom section_1_bottom section_1_bottom section_1_bottom"
+    "section_2_left_side section_2_left_side section_2_left_side section_2_right_side section_2_right_side section_2_right_side"
+    "section_3_left_side section_3_left_side section_3_middle section_3_middle section_3_right_side section_3_right_side"
+    "section_4_left_side section_4_left_side section_4_right_side section_4_right_side section_4_right_side section_4_right_side"
+    "section_5_left_side section_5_left_side section_5_middle section_5_middle section_5_right_side section_5_right_side"
+    "section_6 section_6 section_6 section_6 section_6 section_6"
+    "section_7 section_7 section_7 section_7 section_7 section_7"
+    "section_8 section_8 section_8 section_8 section_8 section_8"
+    "footer footer footer footer footer footer";
+  grid-template-rows: auto auto auto 425px auto 600px auto auto auto auto;
+}
+
+/* .about_us_page {
+  display: grid;
+  height: 100vh;
+  gap: 10px;
+  grid-template-areas:
+    "section_1_left_side section_1_right_side section_1_right_side"
+    "section_1_bottom section_1_bottom section_1_bottom"
+    "section_2_left_side section_2_left_side section_2_right_side"
+    "section_3_left_side section_3_middle section_3_right_side"
+    "section_4_left_side section_4_right_side section_4_right_side"
+    "section_5_left_side section_5_middle section_5_right_side"
+    "section_6 section_6 section_6"
+    "section_7 section_7 section_7"
+    "section_8 section_8 section_8"
+    "footer footer footer";
+  grid-template-rows: repeat(10, 1fr);
+} */
+
+@media (max-width: 1020px) {
+  .about_us_page {
+    grid-template-areas:
+      "section_1_left_side section_1_right_side section_1_right_side"
+      "section_1_bottom section_1_bottom section_1_bottom"
+      "section_2_left_side section_2_left_side section_2_right_side side section_2_right_side"
+      "section_3_left_side section_3_middle section_3_right_side"
+      "section_4_left_side section_4_right_side section_4_right_side"
+      "section_5_left_side section_5_middle section_5_right_side"
+      "section_6 section_6 section_6"
+      "section_7 section_7 section_7"
+      "section_8 section_8 section_8"
+      "footer footer footer";
+    grid-template-rows: repeat(10, 1fr);
+  }
+}
+
+@media (max-width: 720px) {
+  .about_us_page {
+    grid-template-areas:
+      "section_1_left_side section_1_right_side section_1_right_side"
+      "section_1_bottom section_1_bottom section_1_bottom"
+      "section_2_left_side section_2_left_side side section_2_right_side"
+      "section_3_left_side section_3_middle section_3_right_side"
+      "section_4_left_side section_4_right_side section_4_right_side"
+      "section_5_left_side section_5_middle section_5_right_side"
+      "section_6 section_6 section_6"
+      "section_7 section_7 section_7"
+      "section_8 section_8 section_8"
+      "footer footer footer";
+    grid-template-rows: repeat(10, 1fr);
+  }
+}
+
+/*******************************************id Selectors****************************************/
+
+#section_1_bottom {
+  grid-area: section_1_bottom;
+  text-align: center;
+}
+
+#section_1_left_side {
+  padding-left: 110px;
+}
+
+#section_1_right_side {
+  padding-right: 120px;
+}
+
+#section_2_left_side {
+  grid-area: section_2_left_side;
+  color: #747474;
+  font-weight: 400;
+  line-height: 28px;
+  size: 16px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+#section_2_right_side {
+  grid-area: section_2_right_side;
+  color: #747474;
+  font-weight: 400;
+  line-height: 28px;
+  size: 16px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin-left: 20px;
+}
+
+#section_3_left_side {
+  background-color: #00ccb1;
+  grid-area: section_3_left_side;
+  padding: 0 30px 10px;
+  width: 311px;
+  border-radius: 10px;
+}
+
+#section_3_left_side p {
+  padding-bottom: 60px;
+}
+
+#section_3_middle p {
+  padding-bottom: 60px;
+}
+
+#section_3_right_side p {
+  padding-bottom: 20px;
+}
+
+#section_3_middle {
+  background-color: #3d83df;
+  grid-area: section_3_middle;
+  width: 311px;
+  border-radius: 10px;
+  padding: 0 30px 10px;
+}
+
+#section_3_right_side {
+  background-color: #323d49;
+  grid-area: section_3_right_side;
+  width: 311px;
+  border-radius: 10px;
+  padding: 0 30px 10px;
+}
+
+#section_4_left_side {
+  grid-area: section_4_left_side;
+  width: 72%;
+}
+
+#section_4_right_side {
+  grid-area: section_4_right_side;
+  margin-top: 26.5px;
+}
+
+#section_4_right_side a {
+  font-size: 20px;
+  color: #c4c4c4;
+  font-weight: 500;
+  line-height: 41px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  padding-right: 25px;
+}
+
+#section_4_right_side .parent_logo {
+  width: 4%;
+  height: 18px;
+  padding: 0 5px;
+  filter: grayscale(100%);
+  opacity: 60%;
+}
+
+#section_4_right_side .logo {
+  filter: grayscale(100%);
+  opacity: 60%;
+}
+
+#section_5_left_side {
+  grid-area: section_5_left_side;
+  margin: 0 -10rem;
+  padding: 0 10rem;
+}
+
+#section_5_left_side p {
+  font-family: Roboto, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #747474;
+}
+
+#section_5_middle {
+  grid-area: section_5_middle;
+  margin-left: 90px;
+  padding-top: 25px;
+}
+
+#section_5_right_side {
+  grid-area: section_5_right_side;
+  margin-right: -300rem;
+  padding-right: 300px;
+  padding-left: 0;
+  width: 550px;
+}
